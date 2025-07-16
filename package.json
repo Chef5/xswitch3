@@ -1,7 +1,7 @@
 {
-  "name": "xswitch",
-  "version": "2.0.1",
-  "description": "Xswitch - A compact proxy tool based on Chrome extensions",
+  "name": "xswitch3",
+  "version": "3.0.0",
+  "description": "Xswitch3 - A compact proxy tool based on Chrome extensions",
   "scripts": {
     "build": "webpack --config webpack.config.js --mode production",
     "build:dev": "webpack --config webpack.config.js --mode development",
@@ -9,6 +9,8 @@
     "start": "webpack serve --config webpack.config.js"
   },
   "devDependencies": {
+    "@types/react": "^16.14.0",
+    "@types/react-dom": "^16.9.0",
     "css-loader": "^6.8.1",
     "html-webpack-plugin": "^5.5.3",
     "less": "^4.2.0",
@@ -23,9 +25,10 @@
   },
   "repository": "https://github.com/yize/xswitch.git",
   "dependencies": {
-    "@ali/recore": "^1.7.7",
     "@ant-design/icons": "^5.2.6",
     "antd": "^5.26.4",
-    "classnames": "^2.5.1"
+    "classnames": "^2.5.1",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
   }
 }
