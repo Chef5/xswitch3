@@ -1,12 +1,12 @@
 {
-  "name": "Xswitch3",
+  "name": "XSwitch3",
   "description": "A tool for redirecting URLs and allowing CORS to make the local development experience easy and happy.",
   "short_name": "xsc",
   "version": "3.0.0",
   "manifest_version": 3,
   "action": {
     "default_icon": "images/grey_128.png",
-    "default_title": "Xswitch3",
+    "default_title": "XSwitch3",
     "default_popup": "XSwitch.html"
   },
   "permissions": [

@@ -1,7 +1,7 @@
 {
   "name": "xswitch3",
   "version": "3.0.0",
-  "description": "Xswitch3 - A compact proxy tool based on Chrome extensions",
+  "description": "XSwitch3 - A compact proxy tool based on Chrome extensions",
   "scripts": {
     "build": "webpack --config webpack.config.js --mode production",
     "build:dev": "webpack --config webpack.config.js --mode development",
