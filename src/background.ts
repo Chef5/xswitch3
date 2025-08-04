@@ -273,25 +273,25 @@ function setIcon(): void {
   }
 }
 
-function headersReceivedListener(
-  details: chrome.webRequest.WebResponseHeadersDetails
-): chrome.webRequest.BlockingResponse {
-  return forward.onHeadersReceivedCallback(details, corsEnabled);
-}
+// function headersReceivedListener(
+//   details: chrome.webRequest.WebResponseHeadersDetails
+// ): chrome.webRequest.BlockingResponse {
+//   return forward.onHeadersReceivedCallback(details, corsEnabled);
+// }
 
 function clearCache(): void {
-  if (!clearRunning) {
-    clearRunning = true;
-    const millisecondsPerWeek = MILLISECONDS_PER_WEEK;
-    const oneWeekAgo = new Date().getTime() - millisecondsPerWeek;
-    chrome.browsingData
-      .removeCache({
-        since: oneWeekAgo,
-      })
-      .then(() => {
-        clearRunning = false;
-      });
-  }
+  // if (!clearRunning) {
+  //   clearRunning = true;
+  //   const millisecondsPerWeek = MILLISECONDS_PER_WEEK;
+  //   const oneWeekAgo = new Date().getTime() - millisecondsPerWeek;
+  //   chrome.browsingData
+  //     .removeCache({
+  //       since: oneWeekAgo,
+  //     })
+  //     .then(() => {
+  //       clearRunning = false;
+  //     });
+  // }
 }
 
 function checkAndChangeIcons() {

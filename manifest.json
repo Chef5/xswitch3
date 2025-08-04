@@ -11,8 +11,6 @@
   },
   "permissions": [
     "storage",
-    "browsingData",
-    "webRequest",
     "declarativeNetRequest"
   ],
   "host_permissions": ["<all_urls>"],
